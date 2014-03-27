@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    eventmachine (1.0.3)
+    mini_portile (0.5.3)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    puma (2.8.1)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
+    rack-cors (0.2.9)
+    rack-rewrite (1.5.0)
+    thin (1.6.2)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  puma
+  rack
+  rack-contrib
+  rack-cors
+  rack-rewrite
+  thin
