@@ -1,4 +1,4 @@
-bash
+Gumroad to ShippingEasy
 ====
 
-A simple Rack app that runs `git commit` bash commands on your local machine. 
+A simple bridge between Gumroad and ShippingEasy for Discover Meteor. 
